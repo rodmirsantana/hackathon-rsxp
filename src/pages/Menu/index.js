@@ -14,8 +14,8 @@ const Menu = () => (
     </div>
     <div className="logo">
       <span>
-        Span
-        <FaStudiovinari size={36} />
+        Trocar logo
+        <FaStudiovinari size={42} />
       </span>
     </div>
     <div className="pesquisa">
