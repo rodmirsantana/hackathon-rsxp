@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  min-width: 100%;
+  background: var(--primaryLight);
 
   img {
+    min-width: 100%;
+    height: 400px;
   }
 `;

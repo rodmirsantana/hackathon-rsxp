@@ -4,9 +4,9 @@ import { Container } from './styles';
 import ImgHead from '../../img/head.jpg';
 
 const Head = () => (
-  <div>
+  <Container>
     <img src={ImgHead} alt="ImgHead" />
-  </div>
+  </Container>
 );
 
 export default Head;
