@@ -17,18 +17,29 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 
-html, body, #root{
+html, body {
   min-height: 100%;
-}
-
-  
-body {
-    
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  /* Font fica menos pixada */
+  text-rendering: optimizeLegibility !important;
   /** ajuda a deixar a font com resolução melhor  */
   -webkit-font-smoothing: antialiased !important;
 }
 
+  
+body {
+  background: rgb(31,25,122);
+background: linear-gradient(90deg, rgba(31,25,122,1) 0%, rgba(9,54,121,1) 23%, rgba(0,212,255,1) 100%);
+}
+
 button {
   cursor: pointer;
+}
+
+.container {
+  button {
+    margin-left: 50em;
+    padding: 10px;
+  }
 }
 `;

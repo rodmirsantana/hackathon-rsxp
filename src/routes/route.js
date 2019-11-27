@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import {
+ BrowserRouter, Switch, Route, Redirect 
+} from 'react-router-dom';
 
 import Menu from '../pages/Menu';
 import Head from '../pages/Head';
@@ -11,7 +13,8 @@ const routes = () => (
     <Menu component={Menu} />
     <Head component={Head} />
     <Switch>
-      <Route path="/" exact component={Main} />
+      <Route path="/:id" exact component={Main} />
+      <Route path="/" exact component={() => <Redirect to="/0" />} />
     </Switch>
     <Footer component={Footer} />
   </BrowserRouter>
