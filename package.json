@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "ace-builds": "^1.4.7",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "eslint-config-airbnb": "^18.0.1",
     "polished": "^3.4.2",
     "react": "^16.12.0",
